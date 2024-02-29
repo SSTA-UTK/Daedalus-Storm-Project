@@ -323,9 +323,9 @@ def simulation(num_sim,cov_x, cov_y, cov_temp, mean_x, mean_y, mean_temp, altitu
         }
 
         # Plots Dampeing by time
-        zeta = damp_coe(flight_data, P6127, Big_Liquid)
+        
 
-        Function.compare_plots([(flight_data.angle_of_attack, "AOA"), (zeta, "Damping Coe")], lower = 1, upper = 60)
+        F
 
 
         # writes flight result titles to the output file for the first iteration
